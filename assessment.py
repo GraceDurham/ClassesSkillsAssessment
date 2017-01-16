@@ -4,7 +4,8 @@ Part 1: Discussion
 1. What are the three main design advantages that object orientation
    can provide? Explain each concept.
 
-   Three main design advantages are you can store data data lives close to its functionality (Encapsulation), structured don't need to know info a method uses internally (Abstraction), and 
+   Three main design advantages are you can store data data lives close to its functionality (Encapsulation), 
+   structured don't need to know info a method uses internally (Abstraction), and 
    easy to make different, interchangeable types with Polymorphism. 
 
    You can use the class as a blueprint and make many instances based on that class which stores data.
@@ -34,8 +35,10 @@ Part 1: Discussion
    Class attribute is an attribute on the class. 
    Instance attribute is an attribute on the instance or object. 
 
-   You would use a class attribute as a blue print if you want to apply on the instances made in the future. Class attribute is attribute not specific but general and shared. 
-   You would use an instance attribute if you wanted to override the class attribute set or because it is only specific to the object and not to the class.  
+   You would use a class attribute as a blue print if you want to apply on the instances made in the future.
+    Class attribute is attribute not specific but general and shared. 
+   You would use an instance attribute if you wanted to override the class attribute set or because it is only 
+   specific to the object and not to the class.  
 
 
    example is 
@@ -44,7 +47,8 @@ Part 1: Discussion
         self.weight = 0.0
         self.color = None 
 
-    When you create an instance of this class melons you can override the class attribute of self.weight =0.0 to self.weight of 5.
+    When you create an instance of this class melons you can override the class attribute of 
+    self.weight =0.0 to self.weight of 5.
 """
 
 
